@@ -3,17 +3,26 @@
 exports[`helloworld test renders as expected 1`] = `
 <div>
   <p>
-    Hello,
+    Hello, 
     world
   </p>
   <button
+    onClick={[Function]}
     type="button"
-  />
+  >
+    World
+  </button>
   <button
+    onClick={[Function]}
     type="button"
-  />
+  >
+    Friend
+  </button>
   <button
+    onClick={[Function]}
     type="button"
-  />
+  >
+    React
+  </button>
 </div>
 `;
