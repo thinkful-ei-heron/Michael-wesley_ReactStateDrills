@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion test only opens the most recently clicked section when multiple sections have been clicked 1`] = `
+<div>
+  <ul>
+    <li
+      className="section"
+      key="section0"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="section"
+      key="section1"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      className="section expanded"
+      key="section2"
+    >
+      <button
+        className="btn expanded"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 3
+      </button>
+      <p>
+        Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion test opens a section on click 1`] = `
+<div>
+  <ul>
+    <li
+      className="section"
+      key="section0"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="section expanded"
+      key="section1"
+    >
+      <button
+        className="btn expanded"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 2
+      </button>
+      <p>
+        Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+      </p>
+    </li>
+    <li
+      className="section"
+      key="section2"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion test renders as expected when sections not supplied 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    />
+  </ul>
+</div>
+`;
+
+exports[`Accordion test renders no sections active by default 1`] = `
+<div>
+  <ul>
+    <li
+      className="section"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="section"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      className="section"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion test renders without crashing 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    />
+  </ul>
+</div>
+`;
