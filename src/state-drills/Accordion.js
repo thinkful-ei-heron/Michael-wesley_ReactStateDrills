@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './Accordion.css'
 //props: sections = [{title: str, content: str}, {title: str, content: str}, ...]
 
 export class Accordion extends Component {

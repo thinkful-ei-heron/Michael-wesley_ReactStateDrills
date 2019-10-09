@@ -1,0 +1,33 @@
+body{
+  background-color: #454C5E;
+  padding: 3rem;
+}
+
+ul{
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+}
+
+.btn{
+  width: 40%;
+  min-width: 10rem;
+  max-width: 23rem;
+  height: 125%;
+  font-size: 2rem;
+  margin: 10px;
+  border-radius: 25px;
+  background-color: #F5ECD4;
+  color: #454C5E;
+  box-shadow: 5px 5px;
+}
+
+.btn:focus{
+  outline: none;
+  box-shadow: 0 0 10px 5px #CF5F38;
+}
+
+p{
+  color: #F5ECD4;
+  font-size: 1.5rem;
+}
