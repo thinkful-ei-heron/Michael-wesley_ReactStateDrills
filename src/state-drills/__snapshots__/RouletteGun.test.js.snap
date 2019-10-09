@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Roulette test renders as expected 1`] = `
+<div>
+  <p>
+    you're safe!!
+  </p>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Pull the trigger!
+  </button>
+</div>
+`;
